@@ -122,6 +122,20 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_REPOSITORIO" id="4F915944-F370-E511-BA0E-329BB75F419B">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 23:52:57 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9F411ED-66AF-6D3A-E3FE-ED8330B3D5D9" referredColumn="47313D94-BC08-623C-9EF3-140ADA3BB751"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="84ACC547-37C7-C907-D381-6E1722C583F1" name="TBL_PULL_REQUEST_PK">
@@ -133,6 +147,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7D3BA9F5-0804-F659-2318-F1AA2A4BC44C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52033A56-E8B4-8815-F0AC-0E01EE5CE593" name="TBL_PULL_REQUEST_TBL_Repositorio_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 23:52:57 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F915944-F370-E511-BA0E-329BB75F419B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

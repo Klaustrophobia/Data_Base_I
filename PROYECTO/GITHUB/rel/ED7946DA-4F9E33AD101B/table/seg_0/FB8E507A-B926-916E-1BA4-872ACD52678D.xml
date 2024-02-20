@@ -18,6 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_REPOSITORIO" id="CFEB3340-D831-9414-497B-054761E59A46">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 23:34:40 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC4DB836-CD40-C934-557A-4C391B6B2B3A" referredColumn="47313D94-BC08-623C-9EF3-140ADA3BB751"/>
+</associations>
+</Column>
 <Column name="NOMBRE" id="9A8D5EDD-D0AF-AD9E-CA80-8A18084CEFBD">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-20 22:08:13 UTC</createdTime>
@@ -111,6 +125,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1E5CEDE0-270E-F684-3720-AE07109F2E1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FBF5D93-B5E4-5A24-8248-88DAE518703F" name="TBL_LABELS_TBL_Repositorio_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 23:34:40 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFEB3340-D831-9414-497B-054761E59A46"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
